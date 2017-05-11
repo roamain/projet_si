@@ -9,6 +9,6 @@ test('Example test', t => {
     })
     .then((res) => {
       console.log(res.response.statusCode)
-      t.is(res.response.statusCode, 400)
+      t.is(res.response.statusCode, 200)
     })
 })
