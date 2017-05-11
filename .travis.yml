@@ -7,5 +7,3 @@ script:
 deploy:
   provider: azure_web_apps
   verbose: true
-after_deploy:
-  - npm start  
