@@ -4,7 +4,7 @@ const client = new Discord.Client()
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`)
-});
+})
 
 client.on('message', msg => {
   // Check if the message has been posted in a channel where the bot operates
@@ -13,7 +13,7 @@ client.on('message', msg => {
 
   // If message is hello, post hello too
   if (msg.content === 'hello') {
-    msg.channel.sendMessage('Hello to you too, fellow !')
+    msg.channel.sendMessage('Hello to you too, student !')
   }
 })
 
