@@ -14,7 +14,7 @@ client.on('message', msg => {
   // If message is hello, post hello too
   if (msg.content === 'hello') {
     console.log(' VOILA !')
-    msg.channel.send('Pouet')
+    msg.channel.send('VOILA')
   }
 })
 
