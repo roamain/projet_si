@@ -13,6 +13,7 @@ client.on('message', msg => {
 
   // If message is hello, post hello too
   if (msg.content === 'hello') {
+    console.log('Ouais!')
     msg.channel.sendMessage('Hello to you too, student ! I\'m on Azure !')
   }
 })
