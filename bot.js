@@ -13,8 +13,8 @@ client.on('message', msg => {
 
   // If message is hello, post hello too
   if (msg.content === 'hello') {
-    console.log(' Ouais !')
-    msg.channel.send('Hello to you too, student ! HAAAAAAA')
+    console.log(' Youpi !')
+    msg.channel.send('Pouet')
   }
 })
 
